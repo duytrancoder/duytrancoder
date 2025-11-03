@@ -7,9 +7,9 @@
 </div>
 
 <div align="center">
-  <!-- Câu trích dẫn với hiệu ứng -->
+  <!-- Câu trích dẫn với hiệu ứng - đã sửa "me" thành "Khánh Duy" -->
   <p align="center">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Sao+không+thể+sáng+nếu+không+có+bóng+tối" alt="Quote">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Sao+không+thể+sáng+nếu+không+có+bóng+tối+-+Khánh+Duy" alt="Quote">
   </p>
   
   <!-- Đếm lượt xem với badge đẹp -->
@@ -19,6 +19,56 @@
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=duytrancode&row=1&column=6&theme=darkhub&margin-w=15&margin-h=15&no-frame=true&animation=twinkling" alt="duytrancode" />
   </a>
+</div>
+
+---
+
+<div align="center">
+  <h3>👤 Về mình:</h3>
+  
+  <!-- Thông tin cá nhân với biểu tượng màu sắc -->
+  <table align="center">
+    <tr>
+      <td align="center" width="50">
+        <img src="https://cdn-icons-png.flaticon.com/512/2593/2593534.png" width="30" height="30" alt="passion">
+      </td>
+      <td align="left">
+        <span style="color:#00F7FF">Đam mê</span> lập trình và công nghệ
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50">
+        <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" width="30" height="30" alt="learning">
+      </td>
+      <td align="left">
+        Luôn <span style="color:#00F7FF">học hỏi</span> và cập nhật kiến thức
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="30" height="30" alt="opportunity">
+      </td>
+      <td align="left">
+        Tìm kiếm <span style="color:#00F7FF">cơ hội phát triển</span> và hỗ trợ
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50">
+        <img src="https://cdn-icons-png.flaticon.com/512/4168/4168467.png" width="30" height="30" alt="cloud">
+      </td>
+      <td align="left">
+        Làm việc về <span style="color:#00F7FF">Cloud Computing</span> và <span style="color:#00F7FF">Backend Development</span>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50">
+        <img src="https://cdn-icons-png.flaticon.com/512/2621/2621061.png" width="30" height="30" alt="aws">
+      </td>
+      <td align="left">
+        Đang học <span style="color:#00F7FF">AWS Cloud Architecture</span> và <span style="color:#00F7FF">Microservices</span>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
