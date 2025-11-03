@@ -26,73 +26,68 @@
 <div align="center">
   <h3>👤 Về mình:</h3>
   
-  <!-- Container với animation mượt mà -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; max-width: 800px; margin: 0 auto;">
+  <!-- Container với thiết kế ngắn gọn hơn -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; max-width: 900px; margin: 0 auto;">
     <!-- Card 1 - Đam mê công nghệ -->
-    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 12px; width: 170px; height: 120px; border: 1px solid #30363D; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;" 
+         onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 247, 255, 0.2)';" 
+         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.2)';">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite;">
-        <img src="https://cdn-icons-png.flaticon.com/512/2593/2593534.png" width="35" height="35" alt="passion" />
+      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/2593/2593534.png" width="30" height="30" alt="passion" style="margin-right: 8px;" />
+        <h4 style="color: #00F7FF; margin: 0; font-size: 14px;">Đam mê công nghệ</h4>
       </div>
-      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Đam mê công nghệ</h4>
-      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">Lập trình và khám phá công nghệ mới</p>
+      <p style="color: #f0f6fc; margin: 0; font-size: 11px; text-align: center; line-height: 1.3;">Lập trình và khám phá công nghệ mới</p>
     </div>
     
     <!-- Card 2 - Học hỏi không ngừng -->
-    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 12px; width: 170px; height: 120px; border: 1px solid #30363D; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;" 
+         onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 247, 255, 0.2)';" 
+         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.2)';">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite 0.2s;">
-        <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" width="35" height="35" alt="learning" />
+      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" width="30" height="30" alt="learning" style="margin-right: 8px;" />
+        <h4 style="color: #00F7FF; margin: 0; font-size: 14px;">Học hỏi không ngừng</h4>
       </div>
-      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Học hỏi không ngừng</h4>
-      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">Luôn cập nhật kiến thức mới</p>
+      <p style="color: #f0f6fc; margin: 0; font-size: 11px; text-align: center; line-height: 1.3;">Luôn cập nhật kiến thức mới</p>
     </div>
     
     <!-- Card 3 - Tìm kiếm cơ hội -->
-    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 12px; width: 170px; height: 120px; border: 1px solid #30363D; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;" 
+         onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 247, 255, 0.2)';" 
+         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.2)';">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite 0.4s;">
-        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="35" height="35" alt="opportunity" />
+      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="30" height="30" alt="opportunity" style="margin-right: 8px;" />
+        <h4 style="color: #00F7FF; margin: 0; font-size: 14px;">Tìm kiếm cơ hội</h4>
       </div>
-      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Tìm kiếm cơ hội</h4>
-      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">Phát triển bản thân và hỗ trợ</p>
+      <p style="color: #f0f6fc; margin: 0; font-size: 11px; text-align: center; line-height: 1.3;">Phát triển bản thân và hỗ trợ</p>
     </div>
     
     <!-- Card 4 - Chuyên môn -->
-    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 12px; width: 170px; height: 120px; border: 1px solid #30363D; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;" 
+         onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 247, 255, 0.2)';" 
+         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.2)';">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite 0.6s;">
-        <img src="https://cdn-icons-png.flaticon.com/512/4168/4168467.png" width="35" height="35" alt="cloud" />
+      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/4168/4168467.png" width="30" height="30" alt="cloud" style="margin-right: 8px;" />
+        <h4 style="color: #00F7FF; margin: 0; font-size: 14px;">Chuyên môn</h4>
       </div>
-      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Chuyên môn</h4>
-      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">Cloud & Backend Development</p>
+      <p style="color: #f0f6fc; margin: 0; font-size: 11px; text-align: center; line-height: 1.3;">Cloud & Backend Development</p>
     </div>
     
     <!-- Card 5 - Đang học -->
-    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 12px; width: 170px; height: 120px; border: 1px solid #30363D; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); transition: all 0.3s ease; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;" 
+         onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 247, 255, 0.2)';" 
+         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.2)';">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite 0.8s;">
-        <img src="https://cdn-icons-png.flaticon.com/512/2621/2621061.png" width="35" height="35" alt="aws" />
+      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/2621/2621061.png" width="30" height="30" alt="aws" style="margin-right: 8px;" />
+        <h4 style="color: #00F7FF; margin: 0; font-size: 14px;">Đang học</h4>
       </div>
-      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Đang học</h4>
-      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">AWS Architecture & Microservices</p>
+      <p style="color: #f0f6fc; margin: 0; font-size: 11px; text-align: center; line-height: 1.3;">AWS Architecture & Microservices</p>
     </div>
   </div>
-  
-  <!-- CSS Animation -->
-  <style>
-    @keyframes pulse {
-      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 247, 255, 0.4); }
-      70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(0, 247, 255, 0); }
-      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 247, 255, 0); }
-    }
-    
-    .about-card:hover {
-      transform: translateY(-8px) scale(1.02);
-      box-shadow: 0 12px 24px rgba(0, 247, 255, 0.2);
-      border-color: #00F7FF;
-    }
-  </style>
 </div>
 
 ---
