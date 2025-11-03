@@ -9,16 +9,19 @@
 <div align="center">
   <!-- Câu trích dẫn với hiệu ứng - đã sửa "me" thành "Khánh Duy" -->
   <p align="center">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Sao+không+thể+sáng+nếu+không+có+bóng+tối" alt="Quote">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=stars+cannot+light+without+darkness" alt="Quote">
   </p>
   
   <!-- Đếm lượt xem với badge đẹp -->
   <img src="https://komarev.com/ghpvc/?username=duytrancode&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="duytrancode" />
   
-  <!-- Trophy với animation -->
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=duytrancode&row=1&column=6&theme=darkhub&margin-w=15&margin-h=15&no-frame=true&animation=twinkling" alt="duytrancode" />
-  </a>
+  <!-- Trophy được cải tiến với theme đẹp và hiệu ứng -->
+  <div style="margin: 20px 0; padding: 15px; background-color: rgba(13, 17, 23, 0.5); border-radius: 15px; border: 1px solid #30363D; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);">
+    <h3 style="color: #00F7FF; margin-bottom: 15px;">🏆 Thành tựu GitHub</h3>
+    <a href="https://github.com/ryo-ma/github-profile-trophy">
+      <img src="https://github-profile-trophy.vercel.app/?username=duytrancode&theme=onedark&row=2&column=4&margin-w=8&margin-h=8&no-bg=true&no-frame=true&title=Stars,Followers,Commits,Repositories,Issues,PullRequest,Reviews,Experience" alt="duytrancode" />
+    </a>
+  </div>
 </div>
 
 ---
