@@ -9,15 +9,15 @@
 <div align="center">
   <!-- Câu trích dẫn với hiệu ứng - đã sửa "me" thành "Khánh Duy" -->
   <p align="center">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Sao+không+thể+sáng+nếu+không+có+bóng+tối+-+Khánh+Duy" alt="Quote">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Sao+không+thể+sáng+nếu+không+có+bóng+tối" alt="Quote">
   </p>
   
   <!-- Đếm lượt xem với badge đẹp -->
   <img src="https://komarev.com/ghpvc/?username=duytrancode&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="duytrancode" />
   
-  <!-- Trophy trả về dạng cũ nhưng với theme đẹp hơn -->
+  <!-- Trophy với animation -->
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=duytrancode&row=1&column=6&theme=onedark&margin-w=15&margin-h=15&no-frame=true&title=Stars,Followers,Commits,Repositories,Issues,PullRequest,Reviews" alt="duytrancode" />
+    <img src="https://github-profile-trophy.vercel.app/?username=duytrancode&row=1&column=6&theme=darkhub&margin-w=15&margin-h=15&no-frame=true&animation=twinkling" alt="duytrancode" />
   </a>
 </div>
 
@@ -26,67 +26,64 @@
 <div align="center">
   <h3>👤 Về mình:</h3>
   
-  <!-- Thông tin cá nhân với thiết kế đẹp mắt hơn -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
-    <!-- Card 1 -->
-    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 15px; padding: 20px; width: 300px; border: 1px solid #30363D; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 30px rgba(0, 247, 255, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.3)';">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 10px; margin-right: 15px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/2593/2593534.png" width="40" height="40" alt="passion" />
-        </div>
-        <h4 style="color: #00F7FF; margin: 0; font-size: 18px;">Đam mê công nghệ</h4>
-      </div>
-      <p style="color: #f0f6fc; margin: 0; line-height: 1.6;">Lập trình và khám phá các công nghệ mới</p>
-    </div>
-    
-    <!-- Card 2 -->
-    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 15px; padding: 20px; width: 300px; border: 1px solid #30363D; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 30px rgba(0, 247, 255, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.3)';">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 10px; margin-right: 15px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" width="40" height="40" alt="learning" />
-        </div>
-        <h4 style="color: #00F7FF; margin: 0; font-size: 18px;">Học hỏi không ngừng</h4>
-      </div>
-      <p style="color: #f0f6fc; margin: 0; line-height: 1.6;">Luôn cập nhật kiến thức và kỹ năng mới</p>
-    </div>
-    
-    <!-- Card 3 -->
-    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 15px; padding: 20px; width: 300px; border: 1px solid #30363D; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 30px rgba(0, 247, 255, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.3)';">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 10px; margin-right: 15px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="40" height="40" alt="opportunity" />
-        </div>
-        <h4 style="color: #00F7FF; margin: 0; font-size: 18px;">Tìm kiếm cơ hội</h4>
-      </div>
-      <p style="color: #f0f6fc; margin: 0; line-height: 1.6;">Phát triển bản thân và hỗ trợ cộng đồng</p>
-    </div>
-    
-    <!-- Card 4 -->
-    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 15px; padding: 20px; width: 300px; border: 1px solid #30363D; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 30px rgba(0, 247, 255, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.3)';">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 10px; margin-right: 15px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/4168/4168467.png" width="40" height="40" alt="cloud" />
-        </div>
-        <h4 style="color: #00F7FF; margin: 0; font-size: 18px;">Chuyên môn</h4>
-      </div>
-      <p style="color: #f0f6fc; margin: 0; line-height: 1.6;">Cloud Computing & Backend Development</p>
-    </div>
-    
-    <!-- Card 5 -->
-    <div style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 15px; padding: 20px; width: 300px; border: 1px solid #30363D; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 15px 30px rgba(0, 247, 255, 0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.3)';">
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
-      <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 10px; margin-right: 15px;">
-          <img src="https://cdn-icons-png.flaticon.com/512/2621/2621061.png" width="40" height="40" alt="aws" />
-        </div>
-        <h4 style="color: #00F7FF; margin: 0; font-size: 18px;">Đang học</h4>
-      </div>
-      <p style="color: #f0f6fc; margin: 0; line-height: 1.6;">AWS Cloud Architecture & Microservices</p>
-    </div>
+  <!-- Thông tin cá nhân với card đẹp -->
+  <div align="center">
+    <table>
+      <tr>
+        <td width="50%" align="center">
+          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
+              <img src="https://cdn-icons-png.flaticon.com/512/2593/2593534.png" width="40" height="40" alt="passion" style="margin-right:10px">
+              <h4 style="color:#00F7FF; margin:0">Đam mê công nghệ</h4>
+            </div>
+            <p style="color:#f0f6fc; margin:0">Lập trình và khám phá các công nghệ mới</p>
+          </div>
+        </td>
+        <td width="50%" align="center">
+          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
+              <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" width="40" height="40" alt="learning" style="margin-right:10px">
+              <h4 style="color:#00F7FF; margin:0">Học hỏi không ngừng</h4>
+            </div>
+            <p style="color:#f0f6fc; margin:0">Luôn cập nhật kiến thức và kỹ năng mới</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td width="50%" align="center">
+          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
+              <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="40" height="40" alt="opportunity" style="margin-right:10px">
+              <h4 style="color:#00F7FF; margin:0">Tìm kiếm cơ hội</h4>
+            </div>
+            <p style="color:#f0f6fc; margin:0">Phát triển bản thân và hỗ trợ cộng đồng</p>
+          </div>
+        </td>
+        <td width="50%" align="center">
+          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
+              <img src="https://cdn-icons-png.flaticon.com/512/4168/4168467.png" width="40" height="40" alt="cloud" style="margin-right:10px">
+              <h4 style="color:#00F7FF; margin:0">Chuyên môn</h4>
+            </div>
+            <p style="color:#f0f6fc; margin:0">Cloud Computing & Backend Development</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td width="50%" align="center">
+          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
+              <img src="https://cdn-icons-png.flaticon.com/512/2621/2621061.png" width="40" height="40" alt="aws" style="margin-right:10px">
+              <h4 style="color:#00F7FF; margin:0">Đang học</h4>
+            </div>
+            <p style="color:#f0f6fc; margin:0">AWS Cloud Architecture & Microservices</p>
+          </div>
+        </td>
+        <td width="50%" align="center">
+          <!-- Card trống để cân bằng layout -->
+        </td>
+      </tr>
+    </table>
   </div>
 </div>
 
