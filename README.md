@@ -26,60 +26,74 @@
 <div align="center">
   <h3>👤 Về mình:</h3>
   
-  <!-- Thông tin cá nhân với card đẹp -->
-  <div align="center">
-    <table>
-      <tr>
-        <td width="50%" align="center">
-          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
-              <img src="https://cdn-icons-png.flaticon.com/512/2593/2593534.png" width="40" height="40" alt="passion" style="margin-right:10px">
-              <h4 style="color:#00F7FF; margin:0">Đam mê công nghệ</h4>
-            </div>
-            <p style="color:#f0f6fc; margin:0">Lập trình và khám phá các công nghệ mới</p>
-          </div>
-        </td>
-        <td width="50%" align="center">
-          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
-              <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" width="40" height="40" alt="learning" style="margin-right:10px">
-              <h4 style="color:#00F7FF; margin:0">Học hỏi không ngừng</h4>
-            </div>
-            <p style="color:#f0f6fc; margin:0">Luôn cập nhật kiến thức và kỹ năng mới</p>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td width="50%" align="center">
-          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
-              <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="40" height="40" alt="opportunity" style="margin-right:10px">
-              <h4 style="color:#00F7FF; margin:0">Tìm kiếm cơ hội</h4>
-            </div>
-            <p style="color:#f0f6fc; margin:0">Phát triển bản thân và hỗ trợ cộng đồng</p>
-          </div>
-        </td>
-        <td width="50%" align="center">
-          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
-              <img src="https://cdn-icons-png.flaticon.com/512/4168/4168467.png" width="40" height="40" alt="cloud" style="margin-right:10px">
-              <h4 style="color:#00F7FF; margin:0">Chuyên môn</h4>
-            </div>
-            <p style="color:#f0f6fc; margin:0">Cloud Computing & Backend Development</p>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td width="50%" align="center">
-          <div style="background-color:#161B22; border-radius:10px; padding:15px; margin:10px; border: 1px solid #30363D; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; width: 90%;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="display: flex; align-items: center; justify-content: center; margin-bottom:10px">
-              <img src="https://cdn-icons-png.flaticon.com/512/2621/2621061.png" width="40" height="40" alt="aws" style="margin-right:10px">
-              <h4 style="color:#00F7FF; margin:0">Đang học</h4>
-            </div>
-            <p style="color:#f0f6fc; margin:0">AWS Cloud Architecture & Microservices</p>
-          </div>
-        </td>
-        <td width="50%" align="center">
+  <!-- Container với animation mượt mà -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; max-width: 800px; margin: 0 auto;">
+    <!-- Card 1 - Đam mê công nghệ -->
+    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
+      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite;">
+        <img src="https://cdn-icons-png.flaticon.com/512/2593/2593534.png" width="35" height="35" alt="passion" />
+      </div>
+      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Đam mê công nghệ</h4>
+      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">Lập trình và khám phá công nghệ mới</p>
+    </div>
+    
+    <!-- Card 2 - Học hỏi không ngừng -->
+    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
+      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite 0.2s;">
+        <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" width="35" height="35" alt="learning" />
+      </div>
+      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Học hỏi không ngừng</h4>
+      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">Luôn cập nhật kiến thức mới</p>
+    </div>
+    
+    <!-- Card 3 - Tìm kiếm cơ hội -->
+    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
+      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite 0.4s;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="35" height="35" alt="opportunity" />
+      </div>
+      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Tìm kiếm cơ hội</h4>
+      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">Phát triển bản thân và hỗ trợ</p>
+    </div>
+    
+    <!-- Card 4 - Chuyên môn -->
+    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
+      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite 0.6s;">
+        <img src="https://cdn-icons-png.flaticon.com/512/4168/4168467.png" width="35" height="35" alt="cloud" />
+      </div>
+      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Chuyên môn</h4>
+      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">Cloud & Backend Development</p>
+    </div>
+    
+    <!-- Card 5 - Đang học -->
+    <div class="about-card" style="background: linear-gradient(135deg, #161B22 0%, #0D1117 100%); border-radius: 12px; padding: 15px; width: 220px; height: 140px; border: 1px solid #30363D; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #00F7FF, #0099FF);"></div>
+      <div style="background: rgba(0, 247, 255, 0.1); border-radius: 50%; padding: 8px; margin-bottom: 10px; animation: pulse 2s infinite 0.8s;">
+        <img src="https://cdn-icons-png.flaticon.com/512/2621/2621061.png" width="35" height="35" alt="aws" />
+      </div>
+      <h4 style="color: #00F7FF; margin: 0 0 5px; font-size: 16px; text-align: center;">Đang học</h4>
+      <p style="color: #f0f6fc; margin: 0; font-size: 13px; text-align: center; line-height: 1.4;">AWS Architecture & Microservices</p>
+    </div>
+  </div>
+  
+  <!-- CSS Animation -->
+  <style>
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 247, 255, 0.4); }
+      70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(0, 247, 255, 0); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 247, 255, 0); }
+    }
+    
+    .about-card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 12px 24px rgba(0, 247, 255, 0.2);
+      border-color: #00F7FF;
+    }
+  </style>
+</div>
           <!-- Card trống để cân bằng layout -->
         </td>
       </tr>
