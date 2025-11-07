@@ -3,24 +3,19 @@
 -->
 
 <div align="center">
-  <!-- Animated header (capsule-render) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Cloud%20Support%20Engineer&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38" alt="banner" style="border-radius:12px;"/>
+  <!-- Animated header (capsule-render) - gradient blue to green -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:32CD32&height=200&section=header&text=Cloud%20Support%20Engineer&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38" alt="banner" style="border-radius:12px;"/>
 
   <!-- Sub-heading / animated typing -->
   <p>
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=900&color=00F7FF&center=true&vCenter=true&width=640&lines=Cloud+Support+Engineer;Full+Stack+Developer;AWS+&+DevOps+Learner;Backend+Engineer;Always+Learning+and+Building" alt="typing" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=900&color=00F7FF&center=true&vCenter=true&width=640&lines=Cloud+Support+Engineer;Full+Stack+Developer;AWS+%26+DevOps+Learner;Backend+Engineer;Always+Learning+and+Building" alt="typing" />
     </a>
   </p>
 
   <!-- Quick quote -->
   <p>
     <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Star+cannot+light+without+darkness" alt="quote" />
-  </p>
-
-  <!-- Small animated accent -->
-  <p>
-    <img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&height=80&section=header&text=Building+in+public&fontSize=18&fontColor=ffffff&animation=fadeIn" alt="accent" style="margin-top:6px;border-radius:8px;" />
   </p>
 </div>
 
@@ -93,5 +88,5 @@
 
 <div align="center">
   <p style="color:#8892a6; font-size:13px">Designed with ❤️ by Duy — Cloud Support Engineer</p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=80&section=footer" alt="footer" style="border-radius:10px;margin-top:12px;"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:32CD32&height=80&section=footer" alt="footer" style="border-radius:10px;margin-top:12px;"/>
 </div>
