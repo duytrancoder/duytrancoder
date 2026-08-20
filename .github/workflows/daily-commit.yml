@@ -2,8 +2,8 @@ name: 🟢 Daily Auto Commit
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Chạy vào 0h UTC (khoảng 7h sáng VN) mỗi ngày
-  workflow_dispatch: # Cho phép bấm chạy thủ công
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   auto-commit:
@@ -17,21 +17,18 @@ jobs:
 
       - name: Update dummy file
         run: |
-          # Ghi thời gian hiện tại vào một file ẩn
           echo "Last update: $(date)" > .keepalive
 
       - name: Commit and Push
         run: |
-          # Cấu hình thông tin người commit (bắt buộc phải trùng email tài khoản GitHub của bạn để được tính contribution)
           git config user.name "duytrancoder"
-          git config user.email "khanh2k5xxx@gmail.com"
+          git config user.email "trankhanhduy0103.as@gmail.com"
           
           git add .keepalive
           
-          # Chỉ commit nếu có sự thay đổi
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore: daily auto commit [skip ci]"
-            git push
+            git push origin HEAD:main
           fi
